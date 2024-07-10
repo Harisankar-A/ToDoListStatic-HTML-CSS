@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .one{
+        background-color:#003049;
+        
+        height: 70vh;
+        width: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 150px auto;
+       }
+       legend{
+        padding: 10px;
+        color: white ;
+        background-color:black;
+       }
+       
+       fieldset{
+        background: #f14b4b;
+        height: 40vh;
+        width: 45vh;
+        color: #003049;
+        border: none;
+       }
+       label{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        font-weight:bold;
+       }
+       input[type='checkbox']{
+        accent-color: rgb(0, 0, 0);
+       }
+    </style>
+</head>
+<body>
+    <div class="one">    
+    <div class="two">
+        <fieldset>
+        <legend>Todo List</legend><br><br>
+        <input type="checkbox">
+        <label for="">Attend meeting</label><br><br><br>
+        <input type="checkbox" checked>
+        <label for=""><del>Complete Assignment</del></label><br><br><br>
+        <input type="checkbox" checked >
+        <label for=""><del>Finish design for new website</del></label><br><br><br>
+        <input type="checkbox">
+        <label for="">Go to gym</label><br><br>
+    </fieldset>
+</div>
+    </div>
+</body>
+</html>
